@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 import socketIO from 'socket.io';
 
-const PORT = 4000;
+const PORT = process.env.PORT || 5000;
 const app = express();
 
 app.set('view engine', 'pug');
