@@ -1,0 +1,22 @@
+{
+  "name": "guess-mine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0",
+    "socket.io": "^3.0.4"
+  },
+  "scripts": {
+    "lint": "eslint",
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
