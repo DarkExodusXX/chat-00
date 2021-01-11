@@ -4,7 +4,7 @@ import socketIO from "socket.io";
 import socketController from "./socketController";
 import events from "./events";
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 const app = express();
 app.set("view engine", "pug");
 app.set("views", join(__dirname, "views"));
